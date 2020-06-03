@@ -29,7 +29,7 @@ public class Utilities extends Pages{
 		FileUtils.copyFile(srcFile, new File (System.getProperty("user.dir")+"\\target\\surefire-reports\\html\\"+screenshotName));
 	}
 	
-	@DataProvider(name="dp")
+	/*@DataProvider(name="dp")
 	public Object[][] getData(Method m){
 		
 		String sheetName = m.getName();
@@ -55,7 +55,7 @@ public class Utilities extends Pages{
 		
 		return data;
 		
-	}
+	}*/
 
 	
 	public static boolean isTestRunnable (String testName, ExcelReader excel) {
