@@ -8,6 +8,7 @@ public class LoginPage extends Pages{
 	
 	public void doLogin (String email) {
 		
+		//EGit mm
 		driver.findElement(By.xpath("//*[@id=\"login_id\"]")).sendKeys("nithraj7@gmail.com");
 		driver.findElement(By.id("nextbtn")).click();
 		
